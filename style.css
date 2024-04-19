@@ -69,7 +69,10 @@ body{
         display: flex;
     }
     .botao:first-child{
-        border-radius: 40px 0 0 0;
+        border-radius: 4.aba-conteudo{ display: none;
+}
+    
+    0px 0 0 0;
     }
     .botao:last-child{
         border-radius: 0 40px 0 0;
@@ -89,4 +92,17 @@ background-color: var(--botao-ativo);
 border-bottom: 4px solid var(--verde);
 }
 
+.aba-conteudo.ativo{ display:block;
+}
+
+.aba-conteudo{ display: none;
+}
+
+
+.aba-conteudo-titulo-principal{ font-size: 28px;
+text-align: center;
+}
+.aba-conteudo-titulo-secundario{ text-align: center;
+color: var(--verde); text-transform: uppercase;
+}
 
